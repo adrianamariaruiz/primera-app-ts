@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Patrick Hand', cursive;
+    background-color: rgb(49, 49, 49);
+}
+
+.title{
+    color: white;
+}
+
+.app{
+    /* border: 1px solid rgb(250, 36, 36); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    border-radius: 200px;
+    height: auto;
+    width: 100px;
+}
+
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 16px;
+    padding: 20px;
+}
+
+ul li{
+    border-radius: 6px;
+    border: 1px solid rgb(221, 221, 221);
+    background-color: white;
+    box-shadow: 2px 2px 5px rgb(148, 148, 148);
+    list-style: none;
+    width: 200px;
+    max-width: 320px;
+    padding: 8px 32px;
+    font-size: 18px;
+}
+
+form{
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 7px rgba(148, 148, 148, 0.719);
+    border-radius: 6px;
+    padding: 10px;
+    width: 40%;
+}
+
+form input {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    width: 90%;
+    padding: 4px 6px;
+    margin: 2px 4px;
+}
+
+textarea{
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    min-height: 100px;
+}
+
+button{
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 20px;
+    border-style: none;
+    width: 160px;
+    height: 40px;
+    margin: 5px 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(129, 214, 2);
+    box-shadow: 2px 2px 7px rgba(148, 148, 148, 0.719);
+}
+
+
+
